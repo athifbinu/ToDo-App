@@ -29,13 +29,11 @@ export default class ToDoApp extends Component {
   };
 
   deleteItem=key=>{
-     const allitems=this.state.items;
 
-     allitems.splice(key,1);
 
      this.setState({
-      items:allitems
-     })
+      items:this.state.items.filter((data,index)=>index !==key)  
+     });
   }
   render() {
     const {input,items}=this.state

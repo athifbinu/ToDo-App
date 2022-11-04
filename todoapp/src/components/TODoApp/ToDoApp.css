@@ -17,12 +17,9 @@ h1{
 .todo-container{
     
     width: 350px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
-    margin-top: -20px;
+    margin: auto;
+    margin-top: 30px;
 }
 .input-section{
     background-color: #fff;
