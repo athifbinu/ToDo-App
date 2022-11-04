@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: #CCA8E9;    ;
+    font-family: sans-serif;
+
+    
+}
+.todo-container{
+    
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.input-section{
+    background-color: #fff;
+
+}
+ul {
+    background-color: #fff;
+    min-height: 200px;
+    padding: 10px;
+    text-align: left;
+}
+
+ul li{
+    list-style: none;
+
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    
+}
+
