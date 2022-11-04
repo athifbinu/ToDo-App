@@ -5,6 +5,15 @@ body{
 
     
 }
+.input-section{
+    background-color:#D2DAFF;
+    padding: 18px;
+    border-radius: 10px;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+}
 .todo-container{
     
     width: 350px;
@@ -13,26 +22,47 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    margin-top: -20px;
 }
 .input-section{
     background-color: #fff;
 
 }
 ul {
-    background-color: #fff;
-    min-height: 200px;
+    
     padding: 10px;
     text-align: left;
+
 }
 
 ul li{
+    display: flex;
     list-style: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: grey;
+    box-shadow: 0 4px 6px;
 
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+    
 }
 .input-section input{
     border-radius: 5px;
     border: 1px solid silver;
     width: 100%;
-    
+    padding: 10px;
+    box-sizing: border-box;
+
+
 }
+input::placeholder{
+    color: silver;
+}
+
 
